@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+<meta charset="UTF-8">
+<meta name="authot" contenet "KarenPelaez"/>
+<title>Página de aterrizaje de producto</title>
+</head>
+
+<body>
+<header id="header">
+
+<div id="img-div">
+<center>
+<img id="header-img" src="https://saurom.com/wp-content/uploads/2021/07/banner-historia.jpg"  width ="600" >
+</center>
+</div>
+
+<nav id="nav-bar"> 
+<div id="navegador">
+<ul class="nav-menu">
+<li class="nav-menu-item" target="_blank"> <a href="#Inicio" class=nav-link>Inicio</a> </li> 
+<li class="nav-menu-item" target="_blank"> <a href="#Tienda" class=nav-link>Tienda</a> </li> 
+<li class="nav-menu-item" target="_blank"> <a href="#Contacto" class=nav-link>Contacto</a> </li> 
+</ul<
+</div>
+</nav>
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+</header>
+
+<div id="video">
+<center>
+<iframe width="400" height="232" src="https://www.youtube.com/embed/nOi1JxFeB84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</div>
+
+<br>
+<br>
+
+<h2 id="Inicio">Inicio</h2>
+ <p id= "iniciotexto">
+Saurom (anteriormente denominado Saurom Lamderth, el cual se formó en 1996) es un grupo español de folk metal. Denominan su estilo como «juglar metal», un conglomerado de música rock, folk y celta, aderezado con letras basadas en la literatura, principalmente en leyendas, poemas, romances y cuentos tradicionales, con un trasfondo crítico, cultural y social. Algunas de sus letras tienen una temática relacionada con la novela El Señor de los Anillos, de J. R. R. Tolkien y con la literatura clásica y tradicional andaluza.
+</p>
+
+
+<br>
+<br>
+
+<div class="formulario" id="formulario">
+<center>
+<form id="form" action="/formulario" method="GET">
+<p id="description" >Por favor rellenar el siguiente formulario</p>
+<label for="Email"> E-mail:</label><br>
+<input id="email" id="email-label" type="email" name="email" placeholder = "E-mail" size ="45" required>
+<br>
+<br>
+
+  <a href="https://www. reecodecamp.com/email-submit"  id="submit" input type="button" value ="Enviar">
+    <button>Enviar</button>
+  </a> 
+</center>
+</form>
+</div>
+
+<br>
+<br>
+
+<h2 id="Tienda">Tienda</h2>
+
+<div class="box">
+<div id="uno">
+<center>
+<img src="https://tienda.saurom.es/1-large_default/disco-juglarmetal.jpg" width ="125">
+<p>Disco "JuglarMetal" <br>
+12,00 €</p>
+</center>
+</div>
+
+<div id="dos">
+<center>
+<img src="https://tienda.saurom.es/2-large_default/disco-vida.jpg" width ="125">
+<p>Disco "Vida" <br>
+12,00 €</p>
+</center>
+</div>
+
+<div id="tres">
+<center>
+<img src="https://tienda.saurom.es/3-large_default/disco-once-romances-desde-al-andalus.jpg" width ="125">
+<p>Disco "Once Romances desde Al-Ándalus" <br>
+12,00 €</p>
+</center>
+</div>
+ </div>
+
+<br>
+<br>
+
+<div id="contacto">
+<h2 id="Contacto">Contacto</h2>
+
+<p id="pagina" >
+<a target ="_blank" href ="https://saurom.com/">Pagina oficial  </a>
+</p>
+<p id="pagina" >
+<a target ="_blank" href ="https://es-la.facebook.com/SauromOficial/">Facebook</a>
+</p>
+<p id="pagina" >
+<a target ="_blank" href ="https://twitter.com/sauromoficial?lang=es">Twitter</a>
+</p>
+</div>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+body {
+  background-color: #D9BB9C;
+  margin: 0 0 50px 0;
+  padding: 50px;
+}
+h2,
+p {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Arial";
+  font-size: 25px;
+  margin: 0 auto 10px auto;
+  width: 80%;
+}
+
+#iniciotexto{
+  font-family: "Arial";
+  font-size: 16px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: #D0C2B4;
+  }
+}
+
+
+#formulario{
+  font-family: "Arial";
+  font-size: 14px;
+  text-align: center;
+}
+
+
+#header-img {
+  background-color: white;
+  border-radius: 5px;
+  margin: 40px auto 60px auto;
+  width: 60%;
+  text-align: center;
+}
+
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #FFFFFF;
+   background-color: #471803;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+
+#navegador li a:hover{
+   background-color: #B45F04;
+   color: #ffffff;
+}
+
+
+ .box {
+            display: flex;
+          }
+
+
+#uno {
+ height: 250px;
+  width: 180px; 
+  background-color: rgb(251, 252, 240);
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+}
+
+#dos {
+ height: 250px;
+  width: 180px; 
+  background-color: rgb(251, 252, 240);
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+}
+#tres {
+ height: 250px;
+  width: 180px; 
+  background-color: rgb(251, 252, 240);
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+}
+
+#pagina{
+  font-family: "Arial";
+  font-size: 16px;
+  text-align: center;
+}
+
+
+</style>
